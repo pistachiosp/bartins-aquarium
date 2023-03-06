@@ -7,12 +7,12 @@ export const FishList = () => {
     // Start building a string filled with HTML syntax
     const htmlString = '<article class="fishList">'
 
-    // Create HTNL representations of each fish here
+    // Create HTML representations of each fish here
     for (const fish of fishes) {
 
         // Why is there a backtick used for this string?
-        // 
-        htmlString += `<section class="fish card">
+        // string interpolation
+        htmlString += `<section class="fish  card">
             <div><img  class="fish__image image--card" src="${fish.image}" /></div>
             <div class="fish__name">${fish.name}</div>
             <div class="fish__species">${fish.species}</div>

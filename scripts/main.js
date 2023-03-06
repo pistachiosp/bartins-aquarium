@@ -8,7 +8,7 @@ for (const fish of allFish) {
     console.log(fish)
 }
 
-const parentHTMLElement = document.querySelector("insert selector here")
+const parentHTMLElement = document.querySelector("fish card")
 
 
 parentHTMLElement.innerHTML = FishList()
